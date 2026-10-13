@@ -6,3 +6,4 @@
 .terraform.lock.hcl
 terraform.tfstate.backup
 
+packer.pkrvars.hcl

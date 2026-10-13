@@ -1,3 +1,8 @@
 # Hetzner
-location = "eu-central"
 hcloud_token = "API KEY HERE"
+
+# Configurations
+ssh_key = "SSH KEY NAME"
+
+# Versions
+jumphost_version = "ID"

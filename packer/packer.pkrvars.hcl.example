@@ -1,0 +1,5 @@
+# Hetzner
+hcloud_token = "API_KEY_HERE"
+
+# software versions
+wireguard_version = "1.0.20260223"

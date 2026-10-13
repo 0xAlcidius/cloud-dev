@@ -8,5 +8,6 @@ module "jumphost" {
     count = local.hosts.jumphost ? 1 : 0
     source = "./modules/jumphost"
 
-    location = var.location
+    jumphost_version = var.jumphost_version
+    ssh_key = var.ssh_key
 }

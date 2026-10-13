@@ -3,6 +3,10 @@ variable "hcloud_token" {
     sensitive = true
 }
 
-variable "location" {
+variable "jumphost_version" {
+    type = string
+}
+
+variable "ssh_key" {
     type = string
 }
