@@ -1,0 +1,3 @@
+# Hetzner
+location = "eu-central"
+hcloud_token = "API KEY HERE"
