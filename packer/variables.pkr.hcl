@@ -3,11 +3,7 @@ variable "hcloud_token" {
   sensitive = true
 }
 
-variable "location" {
-    type = string
-}
-
-variable "username" {
+variable "domain" {
     type = string
 }
 

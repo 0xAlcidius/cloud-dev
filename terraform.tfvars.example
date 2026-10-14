@@ -1,8 +1,11 @@
-# Hetzner
+# Tokens
 hcloud_token = "API KEY HERE"
+cloudflare_token = "API KEY HERE"
 
 # Configurations
 ssh_key = "SSH KEY NAME"
+domain = "CUSTOM DOMAIN HERE"
+cloudflare_zone_id = "ZONE ID HERE"
 
 # Versions
 jumphost_version = "ID"

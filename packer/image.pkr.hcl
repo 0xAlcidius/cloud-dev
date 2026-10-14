@@ -23,7 +23,8 @@ build {
         script = "${path.root}/scripts/install-jumphost.sh"
         execute_command = "{{.Vars}} bash '{{.Path}}'"
         environment_vars = [
-            "WIREGUARD_VERSION=${var.wireguard_version}"
+            "WIREGUARD_VERSION=${var.wireguard_version}",
+            "DOMAIN=${var.domain}"
         ]
     }
 }
