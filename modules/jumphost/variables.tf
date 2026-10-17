@@ -12,10 +12,6 @@ variable "jumphost_version" {
   type = string
 }
 
-variable "ssh_key" {
-  type = string
-}
-
 variable "jumphost_ip" {
   type = string
   default = "10.10.0.10"

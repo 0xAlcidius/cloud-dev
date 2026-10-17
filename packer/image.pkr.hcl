@@ -24,7 +24,8 @@ build {
         execute_command = "{{.Vars}} bash '{{.Path}}'"
         environment_vars = [
             "WIREGUARD_VERSION=${var.wireguard_version}",
-            "DOMAIN=${var.domain}"
+            "DOMAIN=${var.domain}",
+            "SSH_KEY_PUB=${var.ssh_key_pub}"
         ]
     }
 }

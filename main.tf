@@ -1,7 +1,7 @@
 locals {
     hosts = {
-        jumphost = true
-        devbox = true
+        jumphost = false
+        devbox = false
     }
 }
 
@@ -10,7 +10,6 @@ module "jumphost" {
     source = "./modules/jumphost"
 
     # VM Configurations
-    ssh_key = var.ssh_key
     jumphost_version = var.jumphost_version
 
     # DNS Configurations

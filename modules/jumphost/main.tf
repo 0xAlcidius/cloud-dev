@@ -48,17 +48,12 @@ resource "cloudflare_dns_record" "cloud" {
   depends_on = [ hcloud_primary_ip.jumphost_public_ipv4 ]
 }
 
-data "hcloud_ssh_key" "ssh_key" {
-  name = var.ssh_key
-}
-
 resource "hcloud_server" "jumphost" {
   name         = "jumphost"
   image        =  var.jumphost_version
   server_type  = "cx23"
 
   firewall_ids = [hcloud_firewall.jh_firewall.id]
-  ssh_keys = [data.hcloud_ssh_key.ssh_key.id]
 
   network {
     subnet_id = hcloud_network_subnet.network_subnet.id

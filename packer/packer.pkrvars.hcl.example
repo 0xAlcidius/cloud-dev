@@ -3,6 +3,7 @@ hcloud_token = "API_KEY_HERE"
 
 # Configurations
 domain = "CUSTOM DOMAIN HERE"
+ssh_key_pub = "SSH PUB KEY HERE"
 
 # software versions
 wireguard_version = "1.0.20260223"
