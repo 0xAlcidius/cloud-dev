@@ -57,7 +57,7 @@ build {
 
     provisioner "file" {
         source = "${path.root}/scripts/conf/sliver.service"
-        destination "/tmp/sliver.service"
+        destination = "/tmp/sliver.service"
     }
 
     provisioner "shell" {
