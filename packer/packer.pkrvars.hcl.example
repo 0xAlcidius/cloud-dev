@@ -7,3 +7,5 @@ ssh_key_pub = "SSH PUB KEY HERE"
 
 # software versions
 wireguard_version = "1.0.20260223"
+go_version = "1.27.4"
+sliver_version = "1.7.9"
