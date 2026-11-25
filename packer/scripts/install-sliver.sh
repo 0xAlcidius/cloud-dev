@@ -4,9 +4,6 @@ set -e
 
 echo 'debconf debconf/frontend select Noninteractive' | sudo debconf-set-selections
 
-export GO_VERSION="1.27.4"
-export SLIVER_VERSION="1.7.9"
-
 sudo apt update
 sudo apt-get install -y git build-essential wget unzip coreutils
 
